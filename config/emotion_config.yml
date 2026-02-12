@@ -1,0 +1,17 @@
+dataset:
+  train_dir: "data/train"
+  test_dir: "data/test"
+  num_classes: 7
+
+training:
+  batch_size: 32
+  num_epochs: 12
+  learning_rate: 0.001
+  device: "cpu"   # or "cpu"
+
+model:
+  name: "resnet18"
+  pretrained: true
+
+output:
+  checkpoint_path: "checkpoints/emotion_model.pth"

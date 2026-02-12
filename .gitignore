@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.env
+
+# Logs and checkpoints
+logs/
+checkpoints/
+*.ckpt
+
+# PyTorch model files
+*.pth
+*.pt
+
+# Dataset folders (do not push datasets)
+data/
+train/
+test/
+train_pose/
+test_pose/
+utk_train/
+utk_val/
+selected_images/
+
+# Large data files
+*.feather
+
+# Editor directories
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
